@@ -1,0 +1,79 @@
+/* styles for my week 9 class exercise */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+}
+
+header {
+    background-color: tan;
+    height: 200px;
+}
+
+.success {
+    float: left;
+    padding: 10px;
+    border: 1px solid brown;
+}
+
+.welcome-logout {
+    float:right;
+    padding: 10px;
+    border: 1px solid brown;
+}
+
+#wrapper {
+    clear: both;
+    width: 940px;
+    margin: 0 auto;
+}
+
+/* Form Styles */
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+fieldset {
+    padding: 10px;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+h3 {
+    text-align: center;
+    margin: 10px 0; 
+}
+
+.block {
+    display: block;
+    text-align: center;
+    font-style: italic;
+}
+
+.error {
+    color: red;
+    font-style: italic;
+    margin: 10px 0;
+}
